@@ -207,13 +207,13 @@ services:
 #      - webshoppingapigw
 #      - webmarketingapigw
 
-  webmvc:
-    image: eshop/webmvc:${TAG:-latest}
-    build:
-      context: .
-      dockerfile: src/Web/WebMVC/Dockerfile    
-    depends_on:
-      - webshoppingagg
-      - webshoppingapigw
-      - webmarketingapigw
+#  webmvc:
+#    image: eshop/webmvc:${TAG:-latest}
+#    build:
+#      context: .
+#      dockerfile: src/Web/WebMVC/Dockerfile    
+#    depends_on:
+#      - webshoppingagg
+#      - webshoppingapigw
+#      - webmarketingapigw
 

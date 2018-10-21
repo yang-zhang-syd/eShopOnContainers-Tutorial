@@ -11,7 +11,18 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "IdentityUrl": "http://localhost:5105",
+        "PurchaseUrl": "http://localhost:5202",
+        "PaymentUrlHC": "http://localhost:5108/hc",
+        "CatalogUrlHC": "http://localhost:5101/hc",
+        "MarketingUrl": "http://localhost:5203",
+        "IdentityUrlHC": "http:/localhost:5105/hc",
+        "OrderingUrlHC": "http://localhost:5102/hc",
+        "UseCustomizationData": "True",
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "SignalrHubUrl": "http://localhost:5202",
+        "MarketingUrlHC": "http://localhost:5110/hc",
+        "BasketUrlHC": "http://localhost:5103/hc"
       }
     },
     "Microsoft.eShopOnContainers.WebMVC": {
